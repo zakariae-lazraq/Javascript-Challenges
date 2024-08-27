@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Of the Day</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="quote-box">
+      <h2>Quote of the Day</h2>
+      <blockquote id="quote">
+        <i class="fa-solid fa-quote-left"></i>Loading ...
+        <i class="fa-solid fa-quote-right"></i>
+      </blockquote>
+      <span id="author">Loading ...</span>
+      <div>
+        <button onclick="getQuotes(api_URL)" id="newBtnQuote">New Quote</button>
+        <button onclick="tweet()"><img src="images/image.png" />Tweet</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
